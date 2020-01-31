@@ -1,0 +1,945 @@
+* {
+    font-family: 'Bitter', serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.menu1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+}
+
+
+.logo {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    align-self: center;
+
+}
+
+.logo1 {
+    width: 200px;
+    margin-top: 8px;
+}
+
+.links {
+    grid-column: 7/12;
+    align-self: center;
+}
+
+.links img {
+    grid-column: 10/12;
+    display: none;
+}
+
+.links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+
+.icon1 {
+    Width: 65PX;
+    margin-top: 7px;
+    justify-self: end;
+}
+
+nav {
+    background-color: #fafafa;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.links button {
+    background-color: white;
+    border: solid 2px #67bd69;
+    width: 150px;
+    height: 34px;
+    border-radius: 2px;
+}
+
+.btn a {
+    padding-left: 15px;
+    color: #67bd69;
+    line-height: 1.5px;
+}
+
+.btn:hover {
+    background-color: #67bd69;
+
+}
+
+.btn a:hover {
+    color: white;
+}
+
+.background {
+    background-image: url(4.jpg);
+    height: 85vh;
+    overflow: hidden;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.background h1 {
+
+    position: relative;
+    top: 300px;
+    font-size: 3vw;
+    left: 1200px;
+}
+
+.colorh11 {
+    color: white;
+}
+
+.colorh1 {
+    color: #67bd69;
+}
+
+.background p {
+    color: white;
+    position: relative;
+    top: 320px;
+    left: 1200px;
+    font-size: 1.2vw;
+}
+
+.background button {
+
+    width: 200px;
+    height: 40px;
+    background-color: #67bd69;
+    border: solid 2px #67bd69;
+    position: relative;
+    left: 1200px;
+    top: 340px;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 1.5px;
+    padding: 3px;
+    font-size: 15px;
+}
+
+.hello {
+    text-align: center;
+    margin-top: 107px;
+}
+
+.dish img {
+    width: 120px;
+}
+
+.dish {
+    grid-column: 3/5;
+    text-align: center;
+}
+
+.fast img {
+    width: 240px;
+}
+
+.fast {
+    grid-column: 6/8;
+    text-align: center;
+
+}
+
+.porridge img {
+    width: 120px;
+
+}
+
+.porridge {
+
+    grid-column: 9/11;
+    text-align: center;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 120px 120px;
+}
+
+.service img {
+    place-self: center;
+}
+
+.service h2 {
+    color: #67bd69;
+    ;
+}
+
+.hello {
+    color:
+        #646464;
+}
+
+.service p {
+    color:
+        #646464;
+}
+
+.h1about {
+    color: #646464;
+    text-align: center;
+    margin-top: 107px;
+    margin-bottom: 74px;
+
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+}
+
+.img-about {
+    width: 1000px;
+    grid-column: 2/ 4;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
+.dish h2 {
+    padding-top: 15px;
+}
+
+.porridge h2 {
+    padding-top: 15px;
+}
+
+.about .demi1 {
+    text-align: center;
+    place-self: center;
+}
+
+.about .demi1 h1 {
+    text-align: center;
+    color: #646464;
+}
+
+.about {
+    background-color: #fafafa;
+}
+
+.demi1 a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.5px;
+    padding: 3px;
+    font-size: 15px;
+}
+
+.demi1 button {
+    background-color: #67bd69;
+    border: solid 2px #67bd69;
+    width: 150px;
+    height: 34px;
+    border-radius: 2px;
+    margin-top: 60PX;
+}
+
+.about {
+    margin-bottom: 74px;
+}
+
+.menuh1 {
+    color: #646464;
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.links a {
+    color: rgb(7, 7, 7);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.links a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.links a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu img {
+    width: 340px;
+    border: SOLID 2px rgb(250, 250, 250);
+    border-radius: 5px;
+}
+
+.menu img:hover {
+
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.saumon {
+    grid-column: 1/2;
+    place-self: center;
+    text-align: center;
+}
+
+.chicken {
+    grid-column: 2/3;
+    place-self: center;
+    text-align: center;
+}
+
+.poisson {
+    grid-column: 3/4;
+    place-self: center;
+    text-align: center;
+}
+
+.compare {
+    text-align: center;
+    margin-top: 74px;
+    color: #646464;
+}
+
+.pricing {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.price1 {
+    grid-column: 3/5;
+    border: solid 2px lightgreen;
+    box-shadow: 5px 10px 8px lightgrey;
+    text-align: center;
+    padding-top: 85px;
+    margin-bottom: 5px;
+    width: 333px;
+}
+
+.price2 {
+
+    grid-column: 6/8;
+    border: solid 2px orange;
+    box-shadow: 5px 10px 8px lightgrey;
+    text-align: center;
+    padding-top: 85px;
+    margin-bottom: 5px;
+    width: 333px;
+}
+
+.price3 {
+    grid-column: 9/11;
+    border: solid 2px lightgreen;
+    border-radius: 3px;
+    box-shadow: 5px 10px 8px lightgrey;
+    text-align: center;
+    padding-top: 85px;
+    margin-bottom: 5px;
+    width: 333px;
+}
+
+.pricing h2 {
+    color:
+        #646464;
+}
+
+.pricing h1 {
+    color: lightgreen;
+    font-size: 43px;
+}
+
+.price2 h1 {
+    color: orange;
+}
+
+.perday {
+    font-size: 14px;
+}
+
+.price1:hover {
+    border-color: orange;
+}
+
+.price1:hover h1 {
+
+    color: orange;
+}
+
+.price2:hover {
+    border-color: lightgreen;
+}
+
+.price2:hover h1 {
+
+    color: lightgreen;
+}
+
+.price3:hover {
+    border-color: orange;
+}
+
+.price3:hover h1 {
+
+    color: orange;
+}
+
+.pricing button {
+    width: 185px;
+    height: 43px;
+    background-color: #67bd69;
+    color: white;
+    border: solid 1px #67bd69;
+    border-radius: 3px;
+}
+
+.price2 button {
+    background-color: orange;
+    border-color: orange;
+}
+
+.price2:hover button {
+    background-color: #67bd69;
+    border-color: #67bd69;
+}
+
+.price1 button {
+    background-color: #67bd69;
+    border-color: #67bd69;
+
+}
+
+.price1:hover button {
+    background-color: orange;
+    border-color: orange;
+}
+
+.price3 button {
+    background-color: #67bd69;
+    border-color: #67bd69;
+
+}
+
+.price3:hover button {
+    background-color: orange;
+    border-color: orange;
+}
+
+.lblog {
+    color: #646464;
+    text-align: center;
+    margin-top: 107px;
+    margin-bottom: 74px;
+}
+
+.blog img {
+    width: 400px;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
+    background-color: #fafafa;
+
+}
+
+.blog1 {
+    grid-column: 1/2;
+    place-self: center;
+
+}
+
+
+.blog2 {
+    grid-column: 2/3;
+    place-self: center;
+}
+
+.blog3 {
+    grid-column: 3/4;
+    place-self: center;
+}
+
+.blog a {
+    text-decoration: none;
+    color: #67bd69;
+}
+
+.blog h1 {
+    text-align: center;
+    border: solid 1px rgb(255, 255, 255);
+    background-color: white;
+    box-shadow: 5px 10px 8px 10px #888888;
+    padding: 17px;
+    position: relative;
+    bottom: 30px;
+}
+
+.ftr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    height: 500px;
+    background-color: #fafafa;
+    filter: invert(1);
+}
+
+.div1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    place-self: center;
+    text-align: center;
+
+}
+
+.div1 a {
+    text-decoration: none;
+    color: black;
+    line-height: 45PX;
+
+}
+
+.div2 {
+    text-align: center;
+    grid-column: 2/3;
+}
+
+.div2 h1 {
+    position: relative;
+}
+
+.div2 h1:before {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 650Px;
+    top: 50%;
+}
+
+.div2 h1:after {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    right: 650Px;
+    top: 50%;
+}
+
+.div2 img {
+    width: 50px;
+    margin-left: 50PX;
+    margin-right: 50px;
+}
+
+.div2 hr {
+    color: black;
+}
+
+.div3 {
+    place-self: center;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.div3 a {
+    text-decoration: none;
+    color: black;
+    line-height: 45PX;
+
+}
+
+.div4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+
+}
+
+.div4 h1 {
+    text-align: center;
+
+}
+
+.div5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+    justify-self: center;
+    position: relative;
+    top: 80px;
+}
+
+.sub {
+    background-color: white;
+    border: 1px solid black;
+    height: 34px;
+}
+
+#fname {
+    border: 1px black solid;
+    height: 30px;
+}
+
+.p {
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.div1 a {
+    color: rgb(7, 7, 7);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.div1 a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.div1 a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.div3 a {
+    color: rgb(7, 7, 7);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.div3 a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.div3 a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile and Tablets media */
+@media (max-width:768px) {
+    .links a {
+        display: none;
+
+    }
+
+    .service {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 2fr 2fr;
+    }
+
+    .service .dish {
+        grid-column: 1/2;
+    }
+
+    .service .fast {
+        grid-column: 1/2;
+    }
+
+    .service .porridge {
+        grid-column: 1/2;
+    }
+
+    .hello {
+        margin-top: 10px;
+        margin-bottom: 74px;
+    }
+
+    .dish img {
+        width: 100px;
+
+    }
+
+    .fast img {
+        width: 200px;
+    }
+
+    .porridge img {
+        width: 100px;
+    }
+
+    .background {
+        height: 60vh;
+    }
+
+    .background h1 {
+
+        position: relative;
+        top: 240px;
+        font-size: 3vw;
+        left: 350px;
+    }
+
+    .background button {
+
+        width: 150px;
+        height: 30px;
+        background-color: #67bd69;
+        border: solid 2px #67bd69;
+        position: relative;
+        left: 350px;
+        top: 240px;
+    }
+    .background p {
+        color: white;
+        position: relative;
+        top: 240px;
+        left: 350px;
+        font-size: 2.2vw;
+    }
+
+    .demi1 {
+        height: 0px;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+
+    .img-about {
+        width: 560px;
+        grid-column: 1/2;
+        justify-self: center;
+        z-index: -1;
+
+    }
+
+    .demi1 p {
+        display: none;
+    }
+
+    .about .demi1 h1 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .demi1 button {
+        margin-top: 10px;
+
+    }
+
+    .demi1 {
+        position: relative;
+        top: 126px;
+    }
+
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .menu .saumon {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        place-self: center;
+    }
+
+    .menu .chicken {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        place-self: center;
+    }
+
+    .menu .poisson {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        place-self: center;
+    }
+
+    .menu img {
+        width: 300px;
+
+    }
+
+    .pricing {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+    .pricing .price1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        margin-bottom: 30px;
+    }
+
+    .pricing .price2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: center;
+        margin-bottom: 30px;
+    }
+
+    .pricing .price3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        justify-self: center;
+    }
+
+
+    .blog {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: #fafafa;
+        height: auto;
+
+    }
+
+    .blog1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+    }
+
+    .blog2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: center;
+    }
+
+    .blog3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        justify-self: center;
+        margin-bottom: 20px;
+    }
+
+    .div5 {
+        grid-column: 1/4;
+    }
+
+    .colorh11 {
+        margin-right: 80%;
+
+    }
+
+    .links img {
+        display: grid;
+        float: right;
+    }
+
+    .about {
+        background-color: rgba(0, 0, 0, 0);
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width:768px) {
+    .icon1 {
+        display: none;
+    }
+}
